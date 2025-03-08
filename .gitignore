@@ -1,0 +1,54 @@
+# Visual Studio specific
+.vs/
+*.user
+*.suo
+*.VC.db
+
+# Build outputs
+bin/
+obj/
+
+# Rider / JetBrains IDE
+.idea/
+
+# ASP.NET Core environment
+appsettings.Development.json
+appsettings.Local.json
+
+# Log files
+logs/
+*.log
+!.gitkeep
+
+# User-specific settings
+*.swp
+*~$*
+
+# Node.js (if using frontend dependencies)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+.project.assets.json
+project.lock.json
+
+# Publish output
+publish/
+wwwroot/
+
+# Database (if using SQLite or similar)
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# EF Migrations
+Migrations/
+
+# Sensitive Files
+secrets.json
+.env
